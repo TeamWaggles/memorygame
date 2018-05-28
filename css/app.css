@@ -106,9 +106,9 @@ h1 {
 }
 
 
-/*
- * Styles for the Score Panel
- */
+
+ // Styles for the Score Panel
+ 
 
 
 .score-panel {
@@ -143,9 +143,8 @@ h1 {
 }
 
 
-/*
- * Styles for congratulations modal
- */
+//Styles for congratulations modal
+ 
 
 
 .overlay {
@@ -225,7 +224,7 @@ h1 {
 	border-radius: 5px;
 }
 
-/* animations */
+// animations 
 @keyframes flipInY {
 	from {
 		transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
@@ -297,8 +296,8 @@ h1 {
 }
 
 
-/****** Media queries
-***************************/
+//Media queries
+
 
 
 @media (max-width: 320px) {
@@ -313,8 +312,8 @@ h1 {
 }
 
 
-/* For Tablets and larger screens
-****************/
+// For Tablets and larger screens
+
 
 @media (min-width: 768px) {
 	.container {
